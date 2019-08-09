@@ -1,0 +1,38 @@
+*{
+	text-align: right;
+}
+
+body {
+	background-image: url(imagee.jpg);
+	background-size: cover;
+}
+
+p:hover{
+	color: purple;
+	text-align: center;
+	cursor: pointer;
+	border: 5px solid rgba(255,176,170,0.5);
+
+}
+p {
+	color: green;
+}
+
+ 
+
+img {
+	float: left;
+}
+p {
+	/*text-decoration: underline;*//*(use google font in web site)*/
+	line-height: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 120%;
+	font-family: 'Poiret One', cursive;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
